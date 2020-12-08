@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>dotnet-ChangeDefaultBranch.Console-F17A43BD-7C78-4B48-8A49-9299E4A154FA</UserSecretsId>
+    <RootNamespace>ChangeDefaultBranch.ConsoleApp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Services.Client" Version="16.153.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChangeDefaultBranch\ChangeDefaultBranch.csproj" />
+  </ItemGroup>
+</Project>

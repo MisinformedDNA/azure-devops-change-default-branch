@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeDefaultBranch", "ChangeDefaultBranch\ChangeDefaultBranch.csproj", "{4D63A2DB-E909-4404-AD6A-E34BDCA5B514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeDefaultBranch.Console", "ChangeDefaultBranch.Console\ChangeDefaultBranch.Console.csproj", "{861BF77E-EAFB-4218-8F81-7683742D1901}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D63A2DB-E909-4404-AD6A-E34BDCA5B514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D63A2DB-E909-4404-AD6A-E34BDCA5B514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D63A2DB-E909-4404-AD6A-E34BDCA5B514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D63A2DB-E909-4404-AD6A-E34BDCA5B514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{861BF77E-EAFB-4218-8F81-7683742D1901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861BF77E-EAFB-4218-8F81-7683742D1901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861BF77E-EAFB-4218-8F81-7683742D1901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861BF77E-EAFB-4218-8F81-7683742D1901}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DDEF3BC-7B71-49C5-B235-03907671FD2F}
+	EndGlobalSection
+EndGlobal
