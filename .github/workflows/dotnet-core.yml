@@ -28,7 +28,7 @@ jobs:
 
   one:
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == "pull_request" }}
+    if: ${{ github.event_name == 'pull_request' }}
     steps:
       - name: Dump GitHub context
         env:
